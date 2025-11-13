@@ -1,6 +1,6 @@
 # 🧢Aplicação de Tecnologia Embarcada para Acessibilidade de Pessoas​ com Deficiência Visual
 
- De acordo com a Organização Mundial da Saúde (OMS), estima-se que cerca de 285 milhões de pessoas no mundo vivem com algum tipo de deficiência visual, sendo que 39 milhões são cegas e 246 milhões têm baixa visão, limitando sua autonomia e segurança na locomoção.​
+  De acordo com a Organização Mundial da Saúde (OMS), estima-se que cerca de 285 milhões de pessoas no mundo vivem com algum tipo de deficiência visual, sendo que 39 milhões são cegas e 246 milhões têm baixa visão, limitando sua autonomia e segurança na locomoção.​
  Embora existam tecnologias assistivas como bengalas e cães-guia, muitas são inacessíveis devido ao alto custo ou à complexidade de uso. Com o avanço da eletrônica e da programação embarcada, é possível desenvolver soluções simples, eficazes e de baixo custo.​
  Este projeto propõe a criação de um boné inteligente com sensor ultrassônico e buzzer, capaz de alertar o usuário sobre obstáculos à sua frente, promovendo maior independência e segurança.​
 
