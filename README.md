@@ -14,6 +14,9 @@ Este projeto usa um sensor ultrassônico para medir distância e aciona um buzze
 - Botão liga/desliga
 
 ## 📦 Código
+O código foi desenvolvido na IDE Arduino
+
+
 #include <Arduino_FreeRTOS.h>
 
 const int trigPin = 9;
