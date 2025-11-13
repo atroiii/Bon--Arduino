@@ -74,8 +74,3 @@ void TaskBuzzer(void *pvParameters) {
 }
 
 
-
-
----
-
-Feito com ❤️ por Arthur
