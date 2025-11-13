@@ -1,17 +1,34 @@
-# 🧢Boné Arduino com Sensor Ultrassônico e FreeRTOS
+# 🧢Aplicação de Tecnologia Embarcada para Acessibilidade de Pessoas​ com Deficiência Visual
 
 Este projeto usa um sensor ultrassônico para medir distância e aciona um buzzer quando algo se aproxima a menos de 30 cm. O código é estruturado com FreeRTOS, usando duas tarefas:
 
 - **Tarefa 1:** Mede a distância com o sensor HC-SR04
 - **Tarefa 2:** Aciona o buzzer conforme a distância
 
-## 🛠 Componentes
-- Arduino UNO
-- Sensor Ultrassônico HC-SR04
-- Buzzer
-- Jumpers
-- Bateria
-- Botão liga/desliga
+## 🛠 Métodos
+ °Materiais Utilizados:​
+
+ o Boné comum​
+
+ o Arduino Uno​
+
+ o Sensor ultrassônico HC-SR04​
+
+ o Buzzer piezoelétrico​
+
+ o Jumpers, protoboard e fonte de alimentação portátil​
+
+°Procedimentos:​
+
+ o Fixação do sensor ultrassônico na aba frontal do boné.​
+
+ o Programação do Arduino para medir a distância entre    o sensor e obstáculos à frente.​
+
+ o Configuração do buzzer para emitir um som quando a  distância for igual ou inferior a 30 cm.​
+
+ o Testes em ambiente controlado com diferentes tipos  de obstáculos.​
+
+ o Avaliação da resposta do sistema e conforto do usuário.
 
 ## 📦 Código
 O código foi desenvolvido na IDE Arduino
