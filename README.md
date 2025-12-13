@@ -2,8 +2,12 @@
 
 De acordo com a Organização Mundial da Saúde (OMS), estima-se que cerca de 285 milhões de pessoas no mundo vivem com algum tipo de deficiência visual, sendo que 39 milhões são cegas e 246 milhões têm baixa visão, limitando sua autonomia e segurança na locomoção. Embora existam tecnologias assistivas como bengalas e cães-guia, muitas são inacessíveis devido ao alto custo ou à complexidade de uso. Com o avanço da eletrônica e da programação embarcada, é possível desenvolver soluções simples, eficazes e de baixo custo. Este projeto propõe a criação de um boné inteligente com sensor ultrassônico e buzzer, capaz de alertar o usuário sobre obstáculos à sua frente, promovendo maior independência e segurança.
 
+---
+
 ## 🧠 Objetivo do Projeto
 Desenvolver um protótipo de boné inteligente utilizando tecnologia embarcada com Arduino, sensor ultrassônico e buzzer, com o propósito de auxiliar pessoas com deficiência visual na detecção de obstáculos, promovendo maior autonomia, segurança e inclusão na mobilidade urbana.
+
+---
 
 ## 🛠 Métodos
 
@@ -20,6 +24,8 @@ Desenvolver um protótipo de boné inteligente utilizando tecnologia embarcada c
 - Configuração do buzzer para emitir um som quando a distância for igual ou inferior a 30 cm.
 - Testes em ambiente controlado com diferentes tipos de obstáculos.
 - Avaliação da resposta do sistema e conforto do usuário.
+
+---
 
 ## 📦 Código
 O código foi desenvolvido na IDE Arduino:
@@ -78,3 +84,17 @@ void TaskBuzzer(void *pvParameters) {
     vTaskDelay(50);
   }
 }
+
+// ====================== RESULTADOS ======================
+// Durante os testes realizados, o sistema foi capaz de detectar
+// obstáculos com precisão a uma distância de 30 cm, sendo possível
+// ajustar essa distância conforme necessário através da programação
+// do Arduino.
+//
+// O buzzer emitiu alertas sonoros imediatos, pois foi implementado
+// um sistema operacional de tempo real (FreeRTOS), proporcionando
+// maior eficiência e controle das tarefas, permitindo ao usuário
+// reagir antes de uma possível colisão.
+//
+// O boné mostrou-se confortável e funcional.
+// ========================================================
