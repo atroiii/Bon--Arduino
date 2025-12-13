@@ -65,7 +65,8 @@ void TaskUltrasonic(void *pvParameters) {
     digitalWrite(trigPin, LOW);
     vTaskDelay(1);
     digitalWrite(trigPin, HIGH);
-    vTaskDelay(1);
+    vTaskDelay
+(1);
     digitalWrite(trigPin, LOW);
 
     duration = pulseIn(echoPin, HIGH);
@@ -92,7 +93,7 @@ void TaskBuzzer(void *pvParameters) {
 }
 
 ```
-
+#Esquema Eletrico
 
 ## ✅Resultados
  Durante os testes realizados, o sistema foi capaz de detectar obstáculos com precisão a uma distância de 30 cm, sendo possível ajustar essa distância conforme necessário através da programação do Arduino. ​
